@@ -1,40 +1,37 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Grading Criteria
 
-## Getting Started
+### Project Overview
+Proyek ini bertujuan untuk membangun aplikasi web yang menampilkan data cuaca secara real-time.  
+Latar belakang proyek adalah kebutuhan pengguna untuk mendapatkan informasi cuaca yang cepat, akurat, dan mudah diakses.  
+Permasalahan yang diangkat adalah sulitnya memperoleh data cuaca terkini dengan tampilan antarmuka yang sederhana namun informatif.  
+Pendekatan dilakukan dengan memanfaatkan API cuaca eksternal, pengolahan data, serta penerapan UI responsif agar dapat digunakan di berbagai perangkat.
 
-First, run the development server:
+### Technologies Used
+Proyek ini menggunakan teknologi berikut:
+- **Next.js** sebagai framework React utama untuk membangun aplikasi web modern.
+- **Tailwind CSS + shadcn/ui** untuk styling yang cepat, konsisten, dan responsif.
+- **Lucide Icons** sebagai ikon antarmuka.
+- **Axios** untuk pengambilan data dari API.
+- **WeatherAPI** sebagai sumber data cuaca.
+- **Vercel** sebagai platform deployment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Pemilihan teknologi ini didasarkan pada kebutuhan akan performa, kemudahan integrasi, serta dukungan ekosistem yang luas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
+Aplikasi memiliki fitur utama sebagai berikut:
+- **Pencarian Kota**: Pengguna dapat mencari cuaca berdasarkan nama kota.
+- **Data Cuaca Saat Ini**: Menampilkan suhu, kondisi, dan ikon cuaca.
+- **Prakiraan Harian**: Menampilkan prediksi cuaca untuk jam-jam tertentu di hari ini.
+- **Prakiraan Mingguan**: Menampilkan ringkasan cuaca 7 hari ke depan.
+- **Air Conditions**: Informasi tentang kelembapan, kecepatan angin, UV index, dan peluang hujan.
+- **UI Responsif**: Tampilan yang menyesuaikan dengan perangkat mobile maupun desktop.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### AI Support Explanation
+Dalam pengembangan proyek ini, **IBM Granite AI** digunakan untuk:
+- Membantu menghasilkan boilerplate code React/Next.js secara cepat.
+- Memberikan rekomendasi optimasi struktur kode.
+- Membantu mendokumentasikan fungsi dan komponen secara lebih sistematis.
+- Mendukung refactoring agar kode lebih efisien dan mudah dibaca.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# cenayangCuaca
->>>>>>> 44c6f7b5b04868a6ddf939facbfbf2db78d3e133
+Perlu dicatat bahwa AI **tidak termasuk** dalam produk akhir, tetapi hanya digunakan sebagai asisten selama fase pengembangan.  
+Penggunaan **IBM Granite** memberikan dampak nyata berupa percepatan proses coding, pengurangan bug kecil, serta dokumentasi yang lebih rapi.
