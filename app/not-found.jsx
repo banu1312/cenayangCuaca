@@ -11,7 +11,7 @@ export default function NotFound() {
         </div>
         <h1 className="text-3xl md:text-4xl font-bold">We’ll be back soon!</h1>
         <p className="text-muted-foreground">
-          Our website is currently undergoing maintenance.  
+          Our website is currently undergoing mainten ance.  
           Please check back later.
         </p>
         <div className="mt-6 text-sm text-muted-foreground">
