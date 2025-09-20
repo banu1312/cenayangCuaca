@@ -1,4 +1,4 @@
-## Grading Criteria
+##READ THIS
 
 ### Project Overview
 Proyek ini bertujuan untuk membangun aplikasi web yang menampilkan data cuaca secara real-time.  
